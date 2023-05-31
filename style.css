@@ -1,0 +1,48 @@
+.navbar{
+    background-color: transparent;
+}
+
+.navbar-nav li a{
+    margin-right: 120px;
+    transition: 0.30s;
+}
+
+.navbar-nav li a:hover{
+    background-color: orange;
+    color: white;
+    text-decoration: underline;
+    line-height: 1.3rem;
+}
+
+.herobody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightgray; */
+}
+
+.header, .hero{
+    background-color: #EEE3CB;
+}
+
+.hero{
+    text-transform: uppercase;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+    text-transform: uppercase;
+    transition: .8s;
+    color: white;
+    text-decoration: solid;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.hero2:hover{
+    color: white;
+}
